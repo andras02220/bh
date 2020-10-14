@@ -18,6 +18,7 @@ firebase.initializeApp({
 });
 
 export const db = firebase.firestore();
+
 new Vue({
   vuetify,
   render: h => h(App)
