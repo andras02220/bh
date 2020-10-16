@@ -172,6 +172,9 @@ methods: {
     this.events = events
     console.log(this.events)
 
+  },
+  getEventColor(ev) {
+    return ev.color
   }
 }
 
